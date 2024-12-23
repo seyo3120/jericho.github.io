@@ -1,0 +1,58 @@
+.content .breeds{
+  background-color: white;
+  display: flex;
+  width: 55rem;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.568);
+}
+table img{
+  width: 15rem;
+  margin: 0px 5px;
+  border-radius: 5px;
+  
+}
+#title{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #8000ff;   
+}
+table p{
+  text-align: center;
+  margin: 0px 10px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #8000ff;
+}
+table button{
+  margin: 1px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.473);
+  border-style: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  color: rgb(255, 255, 0);
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.568);
+}
+#logo{
+  position: absolute;
+  width: 15em;
+  margin-left: 55rem;
+  margin-top: -25rem;
+}
+table button:hover{
+  color: black;
+  background-color: rgb(255, 255, 0);
+  font-size: 18px;
+  transform: translateX(0rem);
+  transition: 0.35s ease-out;
+  cursor: pointer;
+}
+.wrapper{
+  background-color: plum;
+}

@@ -1,0 +1,25 @@
+#creds{
+  text-decoration: none;
+}
+#creds:hover{
+  color: rgb(235, 153, 1);
+  text-decoration: underline;
+  transition: 0.1s ease-out;
+}
+#back_button{
+  position: fixed;
+  z-index: 1;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-style: none;
+  background: none;  
+  font-weight: bold;
+  left: 10px;
+  top: 10px;
+}
+#back_button:hover{
+  transform: rotate(360deg);
+  transition: 0.75s ease-out;
+  cursor: pointer;
+}

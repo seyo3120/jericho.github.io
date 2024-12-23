@@ -1,0 +1,12 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logButton{
+  background-color: #76bdff;
+}
+
+#logButton:hover{
+  background-color: #69a1d6;
+  transition: 0.25s ease-out;
+}

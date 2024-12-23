@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .div-1{
+    background-color: plum;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .div-1 img{
+    width: 100px;
+  }
+  .div-1 h2{
+    align-content: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 140, 150);
+  }
+
+  .section{
+    padding:2rem 9%;
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../Images-in-cat/american-curl/Curl.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content{
+    max-width: 50rem;
+    background-color: white;
+  }
+
+  .home .content h1{
+    font-size: 2rem;
+    color:rgb(0, 140, 150);
+  }
+
+  .home .content p{
+    font-size: 1rem;
+    color:rgb(140, 22, 172);
+    padding:1rem 0;
+    line-height: 1.5;
+  }
+
+  .section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-2{
+    background-color: rgb(140, 22, 172);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-2 h2{
+    align-content: center;
+    display: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding:1rem 0;
+    line-height: 1;
+  }
+
+  .div-3{
+    background-color: rgb(140, 22, 172);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-3 p{
+    align-content: center;
+    display: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1rem;
+    padding:1rem 0;
+    line-height: 1;
+  }
+
+.food-content{
+  background-color: plum;
+}
+
+  .food-content .foods{
+    background-color: white;
+    display: flex;
+    width: 55rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.568);
+  }
+  table img{
+    width: 15rem;
+    margin: 0px 5px;
+    border-radius: 5px;
+    
+  }
+  #title{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #8000ff;   
+  }
+  table p{
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #8000ff;
+  }
+  table button{
+    margin: 1px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: rgb(255, 255, 0);
+  }
+  .logo{
+    position: absolute;
+    width: 15rem;
+    margin-left: 55rem;
+    margin-top: -25rem;
+  }
+  table button:hover{
+    color: black;
+    background-color: rgb(255, 255, 0);
+    font-size: 18px;
+    transform: translateX(0rem);
+    transition: 0.35s ease-out;
+    cursor: pointer;
+  }
+  .wrapper{
+    background-color: plum;
+  }
+
+  .section{
+    padding:2rem 9%;
+  }
+
+  .characteristics .table{
+    width: 100%; 
+    max-width: 1200px; 
+    height: auto; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    min-height: 100vh; 
+  }
+
+  .characteristics .div-4 .th image{
+    width: 50%;
+    max-width: 100%;
+    background-color: plum;
+  }
+
+  .characteristics .div-4 .th ,h1,h3,h5{
+    background-color: rgb(168, 86, 186);
+    font-size: 2rem;
+    color:white;
+  }
+
+  .characteristics .div-4 p{
+    font-size: 1rem;
+    color:rgb(200, 69, 230);
+    padding:1rem 0;
+    line-height: 1.5;
+  }
+  
+  .div-2{
+    background-color: rgb(140, 22, 172);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .food-content .foods{
+    background-color: white;
+    display: flex;
+    width: 55rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.568);
+  }
+  table img{
+    width: 15rem;
+    margin: 0px 5px;
+    border-radius: 5px;
+    
+  }
+  #title{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #8000ff;   
+  }
+  table p{
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #8000ff;
+  }
+  table button{
+    margin: 1px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: rgb(255, 255, 0);
+  }
+  #logo{
+    position: absolute;
+    width: 15em;
+    margin-left: 55rem;
+    margin-top: -25rem;
+  }
+  table button:hover{
+    color: black;
+    background-color: rgb(255, 255, 0);
+    font-size: 18px;
+    transform: translateX(0rem);
+    transition: 0.35s ease-out;
+    cursor: pointer;
+  }
+  .wrapper{
+    background-color: plum;
+  }
+
+  .section-2 h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .grooming-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .grooming-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: #e0c9ff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .grooming-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+    border-bottom: 2px dotted #6a0dad;
+    padding-bottom: 10px;
+    flex: 1;
+  }
+
+  .section-3 .container-3 h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: ccenter;
+  }
+
+  /* Parallelogram Container */
+.parallelogram-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(186, 12, 192);
+  padding: 20px;
+}
+
+.cat-house-section, .streets-section {
+  width: 45%;
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+.parallelogram {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%; /* Aspect ratio */
+  overflow: hidden;
+
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.parallelogram img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.medicine-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.medicine2-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #e0c9ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.medicine3-item p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+  border-bottom: 2px dotted #6a0dad;
+  padding-bottom: 10px;
+  flex: 1;
+}
+
+.section-4 .container-4 h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: ccenter;
+}

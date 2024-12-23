@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation .sidebar{
+  position:fixed;
+  top: 0;
+  left: auto;
+  height: 100%;
+  width:250px;
+  padding:10px 14px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.div-1{
+  background-color: plum;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.div-1 img{
+  width: 100px;
+}
+.div-1 h2{
+  align-content: center;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 140, 150);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.section{
+  background-color: antiquewhite;
+  display: flex;
+ 
+}
+.section img{
+  width: 500px;
+  height: 350px;
+  transform: skewX(-15deg);
+  float: right;
+}
+.section p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #6a0dad;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1{
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.food-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.food-grid button{
+  color: rgb(114, 8, 114);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.food-item {
+  text-align: center;
+  width: 200px;
+}
+
+.food-item img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.section-2{
+  background-color: white;
+  display: flex;
+}
+.section-2 h1{
+  text-align: center;
+}
+
+.container-2 {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #6a0dad;
+  letter-spacing: 2px;
+}
+
+.grooming-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grooming-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #e0c9ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.grooming-item p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+  border-bottom: 2px dotted #6a0dad;
+  padding-bottom: 10px;
+  flex: 1;
+}
+
+.container-3 {
+  text-align: center;
+  background-color: #6a0dad;
+  color: white;
+  padding: 20px;
+}
+
+.container-3 h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+header p {
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Parallelogram Container */
+.parallelogram-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6a0dad;
+  padding: 20px;
+}
+
+.dog-house-section, .streets-section {
+  width: 45%;
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+.parallelogram {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%; /* Aspect ratio */
+  overflow: hidden;
+
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.parallelogram img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-4{
+  background-color: antiquewhite;
+  display: flex;
+ 
+}
+.section-4 img{
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+.section-4 li{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
